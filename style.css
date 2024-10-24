@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.calculator{
+    width: 100%;/*This will ensure calculator takes full width of parent*/
+    height: 100vh;/*This will ensure calculator takes full hight of viewreport*/
+    background: #9ccbda;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    background: #fbd2bd;
+    padding: 20px;
+    border-radius:15px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+input{
+    width: 320px;
+    border:none;
+    padding: 20px;
+    margin:10px;
+    background: transparent;
+    box-shadow: 0px 4px 12px rgbs(90, 90,90,0.1);
+    font-size: 45px;
+    text-align: right;
+    cursor: pointer;
+}
+button{
+    border:0;
+    outline: 0;
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(39, 22, 22, 0.2),5px 5px 15px rgba(-8, -8,8,0.1);
+    background: transparent;
+    font-size: 22px;
+    color: #110606;
+    cursor: default;
+    margin: 12px;
+
+}
+.equal{
+    background-color: #eea0a0;
+    
+}
+.operator{
+    color: #1fa11b;
+}
+.operatorspcl{
+    background-color: #eea0a0;
+}
+    
